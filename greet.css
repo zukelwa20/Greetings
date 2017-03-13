@@ -1,0 +1,9 @@
+.container {
+background-color: grey;
+padding-bottom: 5px;
+}
+.header{
+  text-align: center;
+  border-right: 12px;
+  padding-bottom: 5px;
+}

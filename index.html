@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="greet.css">
+    <title>greeting exercise</title>
+</head>
+<div class="header">
+    <h1>Greeting</h1>
+</div>
+<center>
+
+    <body>
+        <div class="container">
+
+            Name: <input type="text" id="specName" value="">
+            <br><br>
+
+            <input type="radio" name="Language" value="English"> English
+            <input type="radio" name="Language" value="IsiXhosa"> IsiXhosa
+            <input type="radio" name="Language" value="Afrikaans"> Afrikaans<br><br>
+            <!--<input type="submit" value="Greet me" onclick=""> <br><br>-->
+            <button type="submit" id="sub" onclick="">Greet me</button>
+            <button type="button" id="resetButt" onclick="resetB()">Reset</button>
+
+            <p id="greetMe"></p>
+          <p id="greetedMe"></p>
+            <p>Note: Click on the greet me button to display greeting.</p>
+
+            <p id="counter"></p>
+        </div>
+
+
+</center>
+</body>
+<script src="greet.js" charset="utf-8">
+</script>
+
+</html>
